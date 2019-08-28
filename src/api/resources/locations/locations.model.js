@@ -15,6 +15,9 @@ const locationSchema = new Schema({
   appInBackground: {
     type: Boolean
   },
+  accuracy: {
+    type: Number
+  },
   user: {
     type: String
   },
