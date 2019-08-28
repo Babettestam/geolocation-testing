@@ -1,5 +1,5 @@
 {
-  "name": "music-api",
+  "name": "geolocation-testing",
   "version": "1.0.0",
   "description": "A Music Restful API for Egghead Course: Secure Restful API with Nodejs, and Mongoose",
   "main": "index.js",
