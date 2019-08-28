@@ -15,7 +15,7 @@ export default {
     try {
       const { user } = req.params;
 
-      const location = await Location.find(user ? {user} : undefined);
+      const location = await Location.find(user ? {user} : undefined).sort({'timestamp': 'desc'});
       return res.json(location);
     } catch (err) {
       console.error(err);

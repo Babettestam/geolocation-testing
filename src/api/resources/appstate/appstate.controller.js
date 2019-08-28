@@ -15,7 +15,7 @@ export default {
     try {
       const { user } = req.params;
 
-      const appstate = await Appstate.find(user ? {user} : undefined);
+      const appstate = await Appstate.find(user ? {user} : undefined).sort({'timestamp': 'desc'});;
       return res.json(appstate);
     } catch (err) {
       console.error(err);
