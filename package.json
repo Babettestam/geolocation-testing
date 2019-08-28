@@ -13,6 +13,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@babel/node": "7.5.5",
+    "babel-cli": "6.26.0",
     "babel-node": "0.0.1-security",
     "bcryptjs": "^2.4.3",
     "express": "^4.16.3",
@@ -23,14 +25,14 @@
     "morgan": "^1.9.0",
     "passport": "^0.4.0",
     "passport-jwt": "^4.0.0",
-    "babel-cli": "6.26.0",
-    "swagger-ui-express": "^3.0.9"
-  },
-  "devDependencies": {
+    "save-dev": "2.0.0",
+    "swagger-ui-express": "^3.0.9",
     "babel-plugin-transform-runtime": "^6.23.0",
     "babel-preset-env": "^1.6.1",
     "eslint-config-airbnb-base": "^12.1.0",
     "eslint-plugin-import": "^2.11.0",
     "nodemon": "^1.17.3"
+  },
+  "devDependencies": {
   }
 }
